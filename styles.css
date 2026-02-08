@@ -66,6 +66,7 @@ a{
     opacity: 0.8;
     font-size: 20px;
     font-weight: lighter;
+    margin-bottom: 10px;
 }
 
 .random-information{
@@ -88,17 +89,18 @@ a{
 }
 
 .subtext-container{
-    box-sizing: border-box;
-    width: 910px;
     border: 2px solid black;    
     display:flex;
     flex: 1;
-    gap: 50px;
+    gap: 55px;
 }
 
 .subtext{
     border: 2px solid black;
-    width: 130px;
+    font-size: 20px;
+    text-align: center;
+    opacity: 0.6;
+    width: 185px;
 }
 
 .box-container{
@@ -110,9 +112,9 @@ a{
 
 .box{
     min-width: 85px;
-    height: 60px;
+    height: 85px;
     padding: 50px;
-    border: 2px solid #0a69f7;
+    border: 5px solid #0a69f7;
     border-radius: 15px;    
 }
 
@@ -122,9 +124,12 @@ a{
     align-items: center;
     border: 2px solid black;
     padding: 100px;
+    background-color: #dfe1e6;
 }
 .quote{
     border: 2px solid black;
+    font-weight: lighter;
+    opacity: 0.7;
     max-width: 800px;
     font-size: 35px;
     font-weight: lighter;
@@ -136,7 +141,7 @@ a{
     justify-content: flex-end;
     width: 800px;
     font-weight:900;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .pop-up{
@@ -151,10 +156,12 @@ a{
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    gap: 75px;
-    border: 2px solid black;
+    gap: 50px;
+    background-color: #0a69f7;
+    height: 160px;
     width: 900px;
-    padding: 25px 150px 25px;
+    padding: 2px 150px 2px;
+    color: white;
 }
 
 .pop-up-container{
@@ -170,9 +177,27 @@ a{
 
 .footer{
     display: flex;
-    border: 2px solid black;
+    background-color:#1b2447;
+    color: white;
+    padding: 30px;
     justify-content: center;
     align-content: center;
     flex: 0 0 30px;
     flex-shrink: 0;
+}
+
+.pop-button{
+    border: 2px solid white;
+}
+
+button{
+    box-sizing: border-box;
+    background-color: #0a69f7;
+    border: 0px;
+    color: white;
+    border-radius: 7px;
+    width: 120px;
+    height: 40px;
+    font-weight: bolder;
+    font-size: 15px;
 }
